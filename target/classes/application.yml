@@ -1,0 +1,18 @@
+#整合连接池
+server:
+  port: 8089
+  servlet:
+    path: /
+spring:
+  thymeleaf:
+    cache: false
+  dataSource:
+     url: jdbc:mysql://localhost:3306/day01
+     username: root
+     password: abc123
+
+#      driver-class-name: com.mysql.jdbc.Driver可写可不写
+mybatis:
+#  别名
+  type-aliases-package: com.pojo
+
